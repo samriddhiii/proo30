@@ -25,4 +25,8 @@ class Slingshot{
         }
         }
     
+    attach(launcher){
+        this.sling.bodyA= launcher
+    }
+    
 }
